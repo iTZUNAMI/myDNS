@@ -77,7 +77,7 @@ run it for example with 600 = 10 min -d background -t logs bash
 docker run -e bearer="QDvC27t_DrMiwIhdRjxSR2NPK42Q0x0tniJPqIAm" -e x_auth_email="email------------" -e x_auth_key="bb3dde5ba242b87c5744f07f081396bd39da0" -e subdomain="mydns.itzunami.net" -e zone_id="348a14063c853cb1ab025e3dd8a130c1" -e dns_record_id="750b78eb031c868105bf7d5e849bab7e" -time_repeat="600"  -t -d  itzunami/mydns
 
 
-If you want to run it at every system reboo add this code on:
+If you want to run it at every system reboot add this code on:
 
 sudo nano /etc/systemd/system/mydns.service
 
