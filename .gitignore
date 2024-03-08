@@ -1,0 +1,6 @@
+setDns_old/setDns.py
+setDns_old/setDns_docker.py
+setDns_old/
+
+__pycache__/
+ip_database.db
