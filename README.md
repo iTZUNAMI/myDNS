@@ -60,7 +60,7 @@ To list all cronjob:
 
 Add this line to run this script every 10 minutes
 
-> */10 * * * * /your/path/myDNS/bin/python3 /your/path/setDns.py >> out.txt 2>&1
+> */10 * * * * /your/path/myDNS/bin/python3 /your/path/setDns.py >> /home/youruser/output.txt 2>&1
 
 Make sure to chmod that file
 
