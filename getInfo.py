@@ -12,16 +12,11 @@ def getInfo(zone_id,subdomain):
     conn = http.client.HTTPSConnection("api.cloudflare.com")
 
 
-
-    bearer ="QDvC27t_DrMiwIhdRjxSR2NPK42Q0x0tniJPqIAm"
-    x_auth_email= "cinerip@ymail.com"
-    x_auth_key= "bb3dde5ba242b87c5744f07f081396bd39da0"
-
     headers = {
     'Content-Type': "application/json",
-    'Authorization': "Bearer "+ bearer,
-    'X-Auth-Email': x_auth_email,
-    'X-Auth-Key': x_auth_key
+    'Authorization': "Bearer "+ myconfig.bearer,
+    'X-Auth-Email': myconfig.x_auth_email,
+    'X-Auth-Key': myconfig.x_auth_key
 
     }
    
